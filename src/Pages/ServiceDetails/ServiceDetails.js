@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
 import './ServiceDetails.css'
 
@@ -18,9 +18,10 @@ const ServiceDetails = () => {
     
     return (
         <div className="details">   
-        <Row  className="mt-3 w-50 mx-auto"> 
+        <Row> 
+          <Col lg={6} md={12} className="mt-3 mx-auto">
           <h1 className="text-center my-3 fw-bold text-light">  {singleFound[0]?.title} Deparment</h1>
-          <div className="d-flex ms-5 p-2 border">
+          <div className="d-flex rounded p-2 border">
           <div className="p-2">
            <img className="w-100" src={singleFound[0]?.img} alt="" />
           </div>
@@ -31,6 +32,7 @@ const ServiceDetails = () => {
            
            </div> 
          </div>
+          </Col>
        </Row></div>
     );
 };

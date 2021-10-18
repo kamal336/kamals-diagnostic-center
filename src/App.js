@@ -11,6 +11,7 @@ import Login from './Pages/Authentication/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
 import About from './Pages/About Us/About';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
+import Footer from './Pages/Footer/Footer';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
            <NotFound />
          </Route>
        </Switch>
+       <Footer />
      </Router>
   );
 }
