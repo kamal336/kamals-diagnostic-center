@@ -8,7 +8,8 @@ const Services = () => {
     const [services] = useServices();
     
     return (
-        <Container>
+       <div id="services">
+            <Container>
             <h1 className="text-primary fw-bold text-center my-3">Our Services</h1>
         <Row>
             {
@@ -19,6 +20,7 @@ const Services = () => {
             }
         </Row>
         </Container>
+       </div>
     );
 };
 

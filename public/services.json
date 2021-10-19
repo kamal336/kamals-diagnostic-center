@@ -2,26 +2,27 @@
     {
         "id": 314522,
         "title":"Covid-19 Test",
-        "img": "https://image.freepik.com/free-photo/medical-lab-worker-analyzing-blood-serum-conducting-virus-test-modern-equipped-lab-late-night-team-specialists-examining-vaccine-evolution-using-high-tech-treatment-against-covid19_482257-13621.jpg",
+        "img": "https://healthcheckup.manipalhospitals.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/o/covid-19-image.jpg",
         "desc":"We provide best quality and aqurate result and also fast delivery report."
     },
    
     {
         "id": 314523,
         "title":"Ultrasonography",
-        "img": "https://image.freepik.com/free-photo/medical-lab-worker-analyzing-blood-serum-conducting-virus-test-modern-equipped-lab-late-night-team-specialists-examining-vaccine-evolution-using-high-tech-treatment-against-covid19_482257-13621.jpg",
+        "img": "https://www.radiologyinfo.org/-/media/radinfo/gallery-items/images/r-to-t/radiologist-doing-sonogram.ashx",
         "desc":"We provide best quality and aqurate result and also fast delivery report."
     },
     {
-        "id": 314528,
-        "title":"Pathology",
-        "img": "https://image.freepik.com/free-photo/medical-lab-worker-analyzing-blood-serum-conducting-virus-test-modern-equipped-lab-late-night-team-specialists-examining-vaccine-evolution-using-high-tech-treatment-against-covid19_482257-13621.jpg",
-        "desc":"We provide best quality and aqurate result and also fast delivery report."
+        "id": 314525,
+        "title":"Microbiology",
+        "img": "https://www.criver.com/sites/default/files/styles/blog_hero/public/content/uploads/012120_Microbial_Solutions_Microbiology_Manufacturing_-Bioburden.jpg?itok=8utgqHwA",
+        "desc":"We provide best quality and aqurate result and also fast delivery report"
     },
+    
     {
         "id": 314527,
         "title":"CT-Scan MRI",
-        "img": "https://image.freepik.com/free-photo/medical-lab-worker-analyzing-blood-serum-conducting-virus-test-modern-equipped-lab-late-night-team-specialists-examining-vaccine-evolution-using-high-tech-treatment-against-covid19_482257-13621.jpg",
+        "img": "https://4.imimg.com/data4/HX/PP/NSDMERP-40225029/mrimachine-500x500.png",
         "desc":"We provide best quality and aqurate result and also fast delivery report."
     },
     {
@@ -31,10 +32,10 @@
         "desc":"We provide best quality and aqurate result and also fast delivery report."
     },
     {
-        "id": 314525,
-        "title":"Microbiology",
-        "img": "https://image.freepik.com/free-photo/medical-lab-worker-analyzing-blood-serum-conducting-virus-test-modern-equipped-lab-late-night-team-specialists-examining-vaccine-evolution-using-high-tech-treatment-against-covid19_482257-13621.jpg",
-        "desc":"We provide best quality and aqurate result and also fast delivery report"
+        "id": 314528,
+        "title":"Pathology",
+        "img": "https://www.hopkinsmedicine.org/-/media/images/health/2_-treatment/transplant/surgical-pathology-teaser.ashx",
+        "desc":"We provide best quality and aqurate result and also fast delivery report."
     },
    
     {

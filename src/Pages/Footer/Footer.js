@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import './Footer.css'
 
 const Footer = () => {
     return (
@@ -13,11 +14,19 @@ const Footer = () => {
               
                 </Col>
                 <Col lg={4}>
-                <h1>Kamal akter</h1>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Appoinment</p>
             
                 </Col>
                 <Col lg={4}>
-                <h1>Kamal akter</h1>
+                <div>
+                    <i class="fab fa-facebook-square icon"></i>
+                    <i class="fab fa-youtube-square icon"></i>
+                    <i class="fab fa-twitter icon"></i>
+                    <i class="fab fa-instagram-square icon"></i>
+                    <i class="fab fa-linkedin icon"></i>
+                </div>
                 </Col>
             
             </Row>
