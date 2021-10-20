@@ -12,7 +12,6 @@ import NotFound from './Pages/NotFound/NotFound';
 import About from './Pages/About Us/About';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 import Footer from './Pages/Footer/Footer';
-import Register from './Pages/Authentication/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 
@@ -40,9 +39,6 @@ function App() {
          </PrivateRoute>
          <Route path="/login">
            <Login />
-         </Route>
-         <Route path="/register">
-           <Register />
          </Route>
          <Route path="*">
            <NotFound />

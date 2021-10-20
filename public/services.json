@@ -2,27 +2,14 @@
     {
         "id": 314522,
         "title":"Covid-19 Test",
-        "img": "https://healthcheckup.manipalhospitals.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/o/covid-19-image.jpg",
+        "img": "https://media.istockphoto.com/photos/doctor-in-a-home-visit-to-a-senior-man-picture-id1289183630?k=20&m=1289183630&s=612x612&w=0&h=hcZD6ne7EFDPys-dIcY6Iip-PEDt4WQQNUwu_B_O5lA=",
         "desc":"We provide best quality and aqurate result and also fast delivery report."
     },
    
     {
         "id": 314523,
         "title":"Ultrasonography",
-        "img": "https://www.radiologyinfo.org/-/media/radinfo/gallery-items/images/r-to-t/radiologist-doing-sonogram.ashx",
-        "desc":"We provide best quality and aqurate result and also fast delivery report."
-    },
-    {
-        "id": 314525,
-        "title":"Microbiology",
-        "img": "https://www.criver.com/sites/default/files/styles/blog_hero/public/content/uploads/012120_Microbial_Solutions_Microbiology_Manufacturing_-Bioburden.jpg?itok=8utgqHwA",
-        "desc":"We provide best quality and aqurate result and also fast delivery report"
-    },
-    
-    {
-        "id": 314527,
-        "title":"CT-Scan MRI",
-        "img": "https://4.imimg.com/data4/HX/PP/NSDMERP-40225029/mrimachine-500x500.png",
+        "img": "https://image.freepik.com/free-photo/doctor-performing-ultrasound-scanning-her-pregnant-patient_7502-5429.jpg",
         "desc":"We provide best quality and aqurate result and also fast delivery report."
     },
     {
@@ -32,22 +19,37 @@
         "desc":"We provide best quality and aqurate result and also fast delivery report."
     },
     {
-        "id": 314528,
-        "title":"Pathology",
-        "img": "https://www.hopkinsmedicine.org/-/media/images/health/2_-treatment/transplant/surgical-pathology-teaser.ashx",
+        "id": 314527,
+        "title":"CT-Scan MRI",
+        "img": "https://media.istockphoto.com/photos/scanner-equipment-in-the-hospital-picture-id1310342557?b=1&k=20&m=1310342557&s=170667a&w=0&h=fbyk6j8E4FlcezL2UGC-m17uL_CrjsefGn1NfeLY96M=",
         "desc":"We provide best quality and aqurate result and also fast delivery report."
     },
+    
+    {
+        "id": 314528,
+        "title":"Pathology",
+        "img": "https://media.istockphoto.com/photos/laboratory-result-with-blood-tubes-picture-id1174677845?k=20&m=1174677845&s=612x612&w=0&h=ynusY_OpINbWwphSamn4K-JCiUe3wlMKgBerCGh8K2w=",
+        "desc":"We provide best quality and aqurate result and also fast delivery report."
+    },
+    
+    
    
     {
         "id": 314529,
         "title":"X-RAY",
-        "img": "https://image.freepik.com/free-photo/medical-lab-worker-analyzing-blood-serum-conducting-virus-test-modern-equipped-lab-late-night-team-specialists-examining-vaccine-evolution-using-high-tech-treatment-against-covid19_482257-13621.jpg",
+        "img": "https://image.freepik.com/free-photo/doctor-wearing-white-robe-stethoscope_144627-43940.jpg",
         "desc":"We provide best quality and aqurate result and also fast delivery report."
+    },
+    {
+        "id": 314525,
+        "title":"Microbiology",
+        "img": "https://image.freepik.com/free-photo/portrait-scientist-looking-microscope-medical-development-laboratory-analyzing-petri-dish-sample-medicine-biotechnology-research-advanced-pharma-lab-examining-virus-evolution_482257-12814.jpg",
+        "desc":"We provide best quality and aqurate result and also fast delivery report"
     },
     {
         "id": 314526,
         "title":"Hormonal Assay",
-        "img": "https://image.freepik.com/free-photo/medical-lab-worker-analyzing-blood-serum-conducting-virus-test-modern-equipped-lab-late-night-team-specialists-examining-vaccine-evolution-using-high-tech-treatment-against-covid19_482257-13621.jpg",
+        "img": "https://image.freepik.com/free-photo/scientific-doctor-analyzing-sample-blood-from-vacutainer_482257-9082.jpg",
         "desc":"We provide best quality and aqurate result and also fast delivery report."
     }
 ]

@@ -7,12 +7,21 @@ const auth = getAuth();
 const googleProvider = new GoogleAuthProvider();
 
 const useFirebase = () =>{
+
+    // set state 
     const [user,setUser] = useState({});
     const [error,setError] = useState("");
     const [name,setName] = useState("");
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState('');
+    const [toggle,setToggle] = useState(false);
 
+// set toggle 
+const toggleHandler = (e) =>{
+    setToggle(e.target.checked)
+}
+
+// input field 
 const  nameHandler = e =>{
     setName(e.target.value)
     console.log(e.target.value);
@@ -26,25 +35,46 @@ const passwordHandler = e =>{
     setPassword(e.target.value)
 }
 
-// create new user and login
+// form submit for create new user and login
 const handleSubmit = e =>{
     e.preventDefault();
+    e.target.reset();
+
+    // error handle
+    if(!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password)){
+        setError("Minimum eight characters, uppercase letter, lowercase letter, number and special character")
+        return;
+    }
+      
+    // conditional render 
+
+    if(toggle){
+        createNewUser(email,password)
+    }else{
+        loginUser(email,password)
+    }
+}
+ 
+// new user 
+const createNewUser = () =>{
     createUserWithEmailAndPassword(auth,email,password)
     .then(result=>{
         const user = result.user;
         setUser(user);
+        window.location.reload();
         setUserName();
+        
     }).catch(error=>{
         setError(error.message)
     })
-    loginUser();
-    
 }
 
+// set user name 
 const setUserName = ()=>{
     updateProfile(auth.currentUser, {
       displayName: name
     }).then(() => {
+        
       // Profile updated!
       // ...
     }).catch((error) => {
@@ -54,12 +84,15 @@ const setUserName = ()=>{
   }
 
    //   login user 
-    const loginUser = () =>{
+    const loginUser = (email,password) =>{
+        
         signInWithEmailAndPassword(auth,email,password)
         .then(result=>{
             const user = result.user;
-            setUser(user)
+            setUser(user);
+            
         })
+        
     }
 
     // google login 
@@ -84,8 +117,9 @@ const setUserName = ()=>{
     const logOut = () =>{
         signOut(auth)
         .then(()=>{
-            console.log('successfully logout');
+            
             setUser({})
+
         }).catch(error=>{
             setError(error.message)
         })
@@ -99,7 +133,10 @@ const setUserName = ()=>{
         passwordHandler,
         handleSubmit,
         logOut,
-        googleSignIn
+        googleSignIn,
+        toggle,
+        toggleHandler,
+
     }
 }
 
